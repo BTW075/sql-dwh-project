@@ -1,6 +1,6 @@
 # Data Warehouse and Analytics Project
 
-This is a guided, hands-on project from DataWithBaraa designed to build a modern data warehouse using SSMS. The goal is to learn progressively throughout the process, covering key concepts like ETL, data modeling, and analytics step by step.
+This is a guided, hands-on project designed to build a modern data warehouse using SSMS. The goal is to learn progressively throughout the process, covering key concepts like ETL, data modeling, and analytics step by step.
 
 # 🏗️ Data Architecture
 Medallion Architecture 
@@ -27,6 +27,3 @@ Medallion Architecture
    - Structuring a data pipeline from raw ingestion to business-ready reporting
    - Overall, this experience improved both my technical skills and the way I think about data architecture and workflow management.
      
-# 👋 About Me
-Hi, I'm Aleks — a Data Automation Specialist with a passion for all things data. I'm always looking for opportunities to broaden my knowledge and explore new tools, technologies, and concepts in the data space. This project is part of my ongoing journey to keep learning and growing in the field.
-🔗 Feel free to connect with me on LinkedIn https://www.linkedin.com/in/aleksandra-petrova-a582351b2/
