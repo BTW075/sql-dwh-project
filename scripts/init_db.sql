@@ -6,19 +6,9 @@ ______________________
 
 */
 
-USE master;
+CREATE CATALOG IF NOT EXISTS DataWarehouse;
+USE CATALOG DataWarehouse;
 
-IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'DataWarehouse')
-BEGIN
-    CREATE DATABASE DataWarehouse;
-END;
-GO
-
-USE DataWarehouse;
-GO
-
-CREATE SCHEMA bronze;
-GO 
-CREATE SCHEMA silver;
-GO
-CREATE SCHEMA gold;
+CREATE SCHEMA IF NOT EXISTS bronze;
+CREATE SCHEMA IF NOT EXISTS silver;
+CREATE SCHEMA IF NOT EXISTS gold;
