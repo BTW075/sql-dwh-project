@@ -1,4 +1,4 @@
-/* 
+/*  
 Create DB and Schemas
 ______________________
 Creating DB DataWarehouse if it does not exists + sets up 3 schemas for learning purposes.
